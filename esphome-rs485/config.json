@@ -21,7 +21,7 @@
   ],
   "name": "ESPHome (rs485) EV",
   "options": {
-    "esphome_version": "elvensgithub:master"
+    "esphome_version": "esphome:master"
   },
   "panel_icon": "mdi:chip",
   "ports": {
