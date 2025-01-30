@@ -7,11 +7,11 @@ COPY rootfs /
 RUN pip3 install --no-cache-dir https://github.com/esphome/esphome/archive/release.zip
 
 # Build arguments
-ARG BUILD_VERSION=master
+ARG BUILD_VERSION=release
 
 # Labels
 LABEL \
     io.hass.name="ESPHome_rs485 EV" \
     io.hass.description="Manage and program ESP8266/ESP32 microcontrollers through YAML configuration files" \
     io.hass.type="addon" \
-    io.hass.version=master
+    io.hass.version=release
