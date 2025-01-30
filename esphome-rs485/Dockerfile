@@ -11,7 +11,7 @@ ARG BUILD_VERSION=master
 
 # Labels
 LABEL \
-    io.hass.name="ESPHome_rs485" \
+    io.hass.name="ESPHome_rs485 EV" \
     io.hass.description="Manage and program ESP8266/ESP32 microcontrollers through YAML configuration files" \
     io.hass.type="addon" \
     io.hass.version=master
