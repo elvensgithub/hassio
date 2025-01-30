@@ -19,9 +19,9 @@
     "ssl:ro",
     "config:rw"
   ],
-  "name": "ESPHome (rs485)",
+  "name": "ESPHome (rs485) EV",
   "options": {
-    "esphome_version": "reflican:master"
+    "esphome_version": "elvensgithub:master"
   },
   "panel_icon": "mdi:chip",
   "ports": {
