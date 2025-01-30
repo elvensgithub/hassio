@@ -4,7 +4,7 @@ FROM ${BUILD_FROM}
 # Copy root filesystem
 COPY rootfs /
 
-RUN pip3 install --no-cache-dir https://github.com/elvensgithub/esphome/archive/master.zip
+RUN pip3 install --no-cache-dir https://github.com/esphome/esphome/archive/master.zip
 
 # Build arguments
 ARG BUILD_VERSION=master
