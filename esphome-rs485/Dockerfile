@@ -4,14 +4,14 @@ FROM ${BUILD_FROM}
 # Copy root filesystem
 COPY rootfs /
 
-RUN pip3 install --no-cache-dir https://github.com/esphome/esphome/archive/release.zip
+RUN pip3 install --no-cache-dir https://github.com/elvensgithub/esphome/archive/master.zip
 
 # Build arguments
-ARG BUILD_VERSION=release
+ARG BUILD_VERSION=master
 
 # Labels
 LABEL \
     io.hass.name="ESPHome_rs485 EV" \
     io.hass.description="Manage and program ESP8266/ESP32 microcontrollers through YAML configuration files" \
     io.hass.type="addon" \
-    io.hass.version=release
+    io.hass.version=master
